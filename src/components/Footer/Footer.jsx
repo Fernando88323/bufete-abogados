@@ -18,7 +18,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-zinc-950 text-white pt-16 pb-8 px-4">
+    <footer className="bg-[rgba(16,32,122)] text-white pt-16 pb-8 px-4 border-t border-zinc-700">
       <div className="max-w-[1200px] mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Sobre el bufete */}
@@ -36,7 +36,7 @@ const Footer = () => {
                 href="https://www.facebook.com/profile.php?id=100057326955209"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group w-12 h-12 sm:w-11 sm:h-11 bg-zinc-800 rounded-full flex items-center justify-center hover:bg-[#1877F2] text-gray-400 hover:text-white active:scale-95 transition-all duration-300 touch-manipulation"
+                className="group w-12 h-12 sm:w-11 sm:h-11 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#1877F2] text-gray-300 hover:text-white active:scale-95 transition-all duration-300 touch-manipulation"
                 aria-label="Facebook"
                 title="Facebook: BUFETE PILIÁ SANTOS"
               >
@@ -52,7 +52,7 @@ const Footer = () => {
                 href="https://wa.me/50324518829"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group w-12 h-12 sm:w-11 sm:h-11 bg-zinc-800 rounded-full flex items-center justify-center hover:bg-[#25D366] text-gray-400 hover:text-white active:scale-95 transition-all duration-300 touch-manipulation"
+                className="group w-12 h-12 sm:w-11 sm:h-11 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#25D366] text-gray-300 hover:text-white active:scale-95 transition-all duration-300 touch-manipulation"
                 aria-label="WhatsApp"
                 title="WhatsApp: 2451-8829"
               >
@@ -75,7 +75,7 @@ const Footer = () => {
                 <a
                   href="#inicio"
                   onClick={(e) => handleNavClick(e, "inicio")}
-                  className="text-gray-400 hover:text-amber-400 transition-colors cursor-pointer"
+                  className="text-gray-300 hover:text-amber-400 transition-colors cursor-pointer"
                 >
                   Inicio
                 </a>
@@ -84,7 +84,7 @@ const Footer = () => {
                 <a
                   href="#about"
                   onClick={(e) => handleNavClick(e, "about")}
-                  className="text-gray-400 hover:text-amber-400 transition-colors cursor-pointer"
+                  className="text-gray-300 hover:text-amber-400 transition-colors cursor-pointer"
                 >
                   Sobre Nosotros
                 </a>
@@ -93,7 +93,7 @@ const Footer = () => {
                 <a
                   href="#servicios"
                   onClick={(e) => handleNavClick(e, "servicios")}
-                  className="text-gray-400 hover:text-amber-400 transition-colors cursor-pointer"
+                  className="text-gray-300 hover:text-amber-400 transition-colors cursor-pointer"
                 >
                   Servicios
                 </a>
@@ -122,7 +122,7 @@ const Footer = () => {
           {/* Áreas de práctica */}
           <div>
             <h3 className="text-xl font-bold mb-4">Áreas de Práctica</h3>
-            <ul className="space-y-2 text-gray-400 text-sm sm:text-base">
+            <ul className="space-y-2 text-gray-300 text-sm sm:text-base">
               <li>Derecho Penal</li>
               <li>Derecho Civil</li>
               <li>Derecho de Familia</li>
@@ -138,7 +138,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-amber-400 transition-colors"
+                  className="text-gray-300 hover:text-amber-400 transition-colors"
                 >
                   Términos y Condiciones
                 </a>
@@ -146,7 +146,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-amber-400 transition-colors"
+                  className="text-gray-300 hover:text-amber-400 transition-colors"
                 >
                   Política de Privacidad
                 </a>
@@ -154,7 +154,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-amber-400 transition-colors"
+                  className="text-gray-300 hover:text-amber-400 transition-colors"
                 >
                   Aviso Legal
                 </a>
@@ -162,7 +162,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-amber-400 transition-colors"
+                  className="text-gray-300 hover:text-amber-400 transition-colors"
                 >
                   Mapa del Sitio
                 </a>
@@ -172,7 +172,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-zinc-800 pt-8 text-center text-gray-400">
+        <div className="border-t border-zinc-700 pt-8 text-center text-gray-300">
           <p className="text-sm sm:text-base">
             &copy; 2026 Bufete Piliá Santos. Todos los derechos reservados.
           </p>

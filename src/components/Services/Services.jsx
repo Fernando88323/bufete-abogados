@@ -88,7 +88,7 @@ const Services = () => {
             Nuestros <span className="text-amber-400">Servicios</span>
           </h2>
           <div className="w-24 h-1 bg-amber-400 mx-auto mb-6"></div>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-700 text-lg max-w-2xl mx-auto">
             Ofrecemos servicios legales especializados en múltiples áreas del
             derecho para proteger sus intereses
           </p>
@@ -142,38 +142,38 @@ const Services = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center p-8">
-              <div className="w-12 h-12 bg-amber-400 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-6">
+              <div className="w-12 h-12 bg-amber-400 text-zinc-900 rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-6">
                 1
               </div>
               <h3 className="text-xl font-semibold mb-4">Consulta Inicial</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed">
                 Evaluamos su caso en una consulta gratuita y confidencial.
               </p>
             </div>
             <div className="text-center p-8">
-              <div className="w-12 h-12 bg-amber-400 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-6">
+              <div className="w-12 h-12 bg-amber-400 text-zinc-900 rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-6">
                 2
               </div>
               <h3 className="text-xl font-semibold mb-4">Análisis Legal</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed">
                 Estudiamos a fondo su situación y desarrollamos una estrategia.
               </p>
             </div>
             <div className="text-center p-8">
-              <div className="w-12 h-12 bg-amber-400 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-6">
+              <div className="w-12 h-12 bg-amber-400 text-zinc-900 rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-6">
                 3
               </div>
               <h3 className="text-xl font-semibold mb-4">Representación</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed">
                 Ejecutamos la estrategia legal con dedicación y expertise.
               </p>
             </div>
             <div className="text-center p-8">
-              <div className="w-12 h-12 bg-amber-400 text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-6">
+              <div className="w-12 h-12 bg-amber-400 text-zinc-900 rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-6">
                 4
               </div>
               <h3 className="text-xl font-semibold mb-4">Solución</h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed">
                 Logramos los mejores resultados posibles para su caso.
               </p>
             </div>

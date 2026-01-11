@@ -35,7 +35,7 @@ const Contact = () => {
             <span className="text-amber-400">Contáctanos</span>
           </h2>
           <div className="w-24 h-1 bg-amber-400 mx-auto mb-6"></div>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-700 text-lg max-w-2xl mx-auto">
             Estamos aquí para ayudarte. Envíanos un mensaje y nos pondremos en
             contacto contigo.
           </p>

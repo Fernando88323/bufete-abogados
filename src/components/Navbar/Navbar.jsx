@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import logoBufetePiliaSantos from "../../assets/images/logo-bufete-pilia-santos.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,17 +30,23 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 left-0 w-full backdrop-blur-[10px] z-[1000] transition-all duration-300 border-b border-zinc-700 ${
         scrolled
-          ? "bg-[rgba(26,26,26,0.98)] py-[0.7rem] px-8 shadow-[0_2px_20px_rgba(0,0,0,0.3)]"
-          : "bg-[rgba(26,26,26,0.95)] py-4 px-8"
+          ? "bg-[rgba(16,32,122)] py-[0.7rem] px-8 shadow-[0_2px_20px_rgba(0,0,0,0.3)]"
+          : "bg-[rgba(16,32,122)] py-4 px-8"
       }`}
     >
       <div className="max-w-[1200px] mx-auto flex items-center justify-between">
         {/* Logo */}
+        {/*         <img
+          src={logoBufetePiliaSantos}
+          alt="Bufete Pilia-Santos Logo"
+          className="h-10"
+        /> */}
         <a
           href="#inicio"
           onClick={(e) => handleNavClick(e, "inicio")}
           className="text-white text-[1.8rem] font-bold no-underline cursor-pointer"
         >
+          {/* <span className="text-[rgba(81,166,245)]">Bufete Pilia-Santos</span> */}
           Bufete <span className="text-amber-400">Pilia-Santos</span>
         </a>
 
@@ -107,7 +114,7 @@ const Navbar = () => {
               <span className="absolute bottom-[-5px] left-0 w-0 h-[2px] bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
             </a>
           </li>
-          <li>
+          {/*           <li>
             <a
               href="#contacto"
               onClick={(e) => handleNavClick(e, "contacto")}
@@ -115,7 +122,7 @@ const Navbar = () => {
             >
               Consulta Gratis
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
 
@@ -166,7 +173,7 @@ const Navbar = () => {
               <span className="absolute bottom-[-5px] left-0 w-0 h-[2px] bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
             </a>
           </li>
-          <li>
+          {/*           <li>
             <a
               href="#contacto"
               onClick={(e) => handleNavClick(e, "contacto")}
@@ -174,7 +181,7 @@ const Navbar = () => {
             >
               Consulta Gratis
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
